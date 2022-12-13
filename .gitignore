@@ -1,0 +1,16 @@
+core/**/*
+vendor/**/*
+sites/**/files/**/*
+libraries/**/*
+sites/**/libraries/**/*
+profiles/**/libraries/**/*
+**/js_test_files/**/*
+**/node_modules/**/*
+
+
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
