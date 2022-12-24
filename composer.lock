@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34512686158e32f9ad575776b66c2ee9",
+    "content-hash": "728ea52b59250be5da05523ddd957621",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -749,6 +749,74 @@
             ],
             "transport-options": {
                 "relative": true
+            }
+        },
+        {
+            "name": "drupal/git_deploy",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/git_deploy.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/git_deploy-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "4aa791aeb32b1b94875072e14f2b85d6286a7020"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1658925262",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "chx",
+                    "homepage": "https://www.drupal.org/user/9446"
+                },
+                {
+                    "name": "Darren Oh",
+                    "homepage": "https://www.drupal.org/user/30772"
+                },
+                {
+                    "name": "Freso",
+                    "homepage": "https://www.drupal.org/user/27504"
+                },
+                {
+                    "name": "Gábor Hojtsy",
+                    "homepage": "https://www.drupal.org/user/4166"
+                },
+                {
+                    "name": "halstead",
+                    "homepage": "https://www.drupal.org/user/301087"
+                },
+                {
+                    "name": "mikey_p",
+                    "homepage": "https://www.drupal.org/user/62496"
+                },
+                {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                }
+            ],
+            "description": "Helps sites that are deployed directly from Git repositories.",
+            "homepage": "https://www.drupal.org/project/git_deploy",
+            "support": {
+                "source": "https://git.drupalcode.org/project/git_deploy"
             }
         },
         {
@@ -8169,5 +8237,5 @@
     "platform-overrides": {
         "php": "7.3.0"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
